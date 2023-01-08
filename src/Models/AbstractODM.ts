@@ -4,6 +4,7 @@ import {
   Schema,
   model,
   isValidObjectId,
+  UpdateQuery,
 } from 'mongoose';
 import HttpException from '../Utils/ HttpException';
 
@@ -29,6 +30,15 @@ class AbstractODM<T> {
 
   public async find(): Promise<T[]> {
     return this.model.find();
+  }
+
+  public async update(id: string, vehicle: Partial<T>): Promise<T | null> {
+    if (!isValidObjectId(id)) throw new HttpException(422, 'Invalid mongo id');
+    return this.model.findByIdAndUpdate(
+      { _id: id },
+      { ...vehicle } as UpdateQuery<T>,
+      { new: true },
+    ); 
   }
 }
 
