@@ -30,6 +30,14 @@ describe('Verifica interação com o banco de dados', function () {
     expect(response).to.be.deep.equal([Out]);
   });
 
+  it('Verifica se o veículo foi atualizado', async function () {
+    sinon.stub(Model, 'findByIdAndUpdate').resolves(Out);
+
+    const testService = new CarService();
+    const response = await testService.carUpdate('634852326b35b59438fbea31', Enter);
+    expect(response).to.be.deep.equal(Out);
+  });
+
   afterEach(function () {
     sinon.restore();
   });  
