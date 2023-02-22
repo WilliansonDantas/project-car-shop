@@ -2,7 +2,7 @@
 
 Este projeto é um exemplo de uma concessionária de veículos, desenvolvida como um exercício para aprimorar habilidades em desenvolvimento web.
 
-## Conhecimentos utilizados
+### Conhecimentos utilizados
 
 - Programação Orientadas a Objetos
 - Banco de Dados Não Relacional (MongoDB)
@@ -12,7 +12,7 @@ Este projeto é um exemplo de uma concessionária de veículos, desenvolvida com
 - Javascript
 - Docker
 
-## Funcionalidades
+### Funcionalidades
 
 - Listagem de carros disponíveis
 - Detalhes dos carros, incluindo fotos e especificações técnicas
@@ -23,7 +23,7 @@ Este projeto é um exemplo de uma concessionária de veículos, desenvolvida com
 - Validação do formulário de informações do comprador
 - Exibição de mensagem de confirmação da compra
 
-## Instalação e Uso
+### Instalação e Uso
 
 1. Clone o repositório:
 
@@ -33,6 +33,6 @@ git clone https://github.com/WilliansonDantas/project-car-shop.git
 
 2. Abra o arquivo index.html em um navegador web.
 
-## Contribuindo
+### Contribuindo
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request com melhorias e correções.
