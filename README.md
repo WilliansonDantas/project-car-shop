@@ -17,9 +17,9 @@ Este projeto é um exemplo simples de uma loja virtual de carros, desenvolvida c
 
 1. Clone o repositório:
 
-```bash
+```
 git clone https://github.com/WilliansonDantas/project-car-shop.git
-```bash
+```
 
 2. Abra o arquivo index.html em um navegador web.
 
