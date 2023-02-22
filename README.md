@@ -1,6 +1,8 @@
 # Project Car Shop
 
-Este projeto é um exemplo simples de uma loja virtual de carros, desenvolvida como um exercício para aprimorar habilidades em desenvolvimento web. O site foi construído utilizando HTML, CSS e JavaScript.
+Este projeto é um exemplo de uma concessionária de veículos, desenvolvida como um exercício para aprimorar habilidades em desenvolvimento web. 
+
+Nele foi contruída uma API com CRUD utilizando os princípios de Programação Orientada a Objetos (POO) para gerenciar uma concessionária de veículos. Utilizando o banco de dados MongoDB através do framework do Mongoose.
 
 ## Funcionalidades
 
