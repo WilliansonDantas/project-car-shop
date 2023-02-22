@@ -9,6 +9,8 @@ Este projeto é um exemplo de uma concessionária de veículos, desenvolvida com
 - Mongoose
 - Typescript
 - Testes de Integração
+- Javascript
+- Docker
 
 ## Funcionalidades
 
