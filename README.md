@@ -1,8 +1,14 @@
 # Project Car Shop
 
-Este projeto é um exemplo de uma concessionária de veículos, desenvolvida como um exercício para aprimorar habilidades em desenvolvimento web. 
+Este projeto é um exemplo de uma concessionária de veículos, desenvolvida como um exercício para aprimorar habilidades em desenvolvimento web.
 
-Nele foi contruída uma API com CRUD utilizando os princípios de Programação Orientada a Objetos (POO) para gerenciar uma concessionária de veículos. Utilizando o banco de dados MongoDB através do framework do Mongoose.
+## Conhecimentos utilizados
+
+- Programação Orientadas a Objetos
+- Banco de Dados Não Relacional (MongoDB)
+- Mongoose
+- Typescript
+- Testes de Integração
 
 ## Funcionalidades
 
