@@ -239,6 +239,6 @@ Para rodar os testes, rode o seguinte comando
 
 <div align="center">
        
-⭐️ Baseado em [Jayromberg ](https://github.com/Jayromberg)
+⭐️ README de referência: [Jayromberg ](https://github.com/Jayromberg)
        
 </div>
