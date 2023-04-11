@@ -13,7 +13,7 @@ O Car Shop é uma API com CRUD para gerenciar uma concessionária de veículos. 
 Instale o Car Shop com npm
 
 ```bash
-  git clone git@github.com:Jayromberg/project-car-shop.git
+  git clone git@github.com:WilliansonDantas/project-car-shop.git
   cd project-car-shop
   npm install
   npm run dev
